@@ -40,3 +40,6 @@ desktop.ini
 .cache/
 build/
 dist/
+
+# 显卡驱动日志（非项目文件）
+NVIDIA Corporation/
