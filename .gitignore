@@ -1,0 +1,42 @@
+# 本框架自定/本地文件——不进仓库
+
+# 技能包元数据（与运行环境绑定，发布无意义）
+_meta.json
+_skillhub_meta.json
+**/_meta.json
+**/_skillhub_meta.json
+
+# 嵌套的 .git（复制技能时带入，避免被当成子模块；已重命名保留）
+**/.git/
+**/.git
+**/.git-repo-backup/
+
+# 作废的旧版文档目录
+**/_deprecated/
+
+# 范文库（版权原因不分发；目录保留，README 说明用法）
+**/范文原文/*.md
+!**/范文原文/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 编译产物与临时文件
+*.aux
+*.log
+*.out
+*.toc
+.cache/
+build/
+dist/
